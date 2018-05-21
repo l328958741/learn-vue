@@ -52,7 +52,7 @@ Vue.component('input-number', {
             if(this.currentValue <= this.min){
                 return;
             }
-            this.currentValue -= -1;
+            this.currentValue -= 1;
         },
         handleup(val){
             if(this.currentValue >= this.max){
